@@ -1,0 +1,79 @@
+footer {
+    background-color: var(--navy);
+    padding: 4rem 0rem 0rem;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem !important;
+}
+
+.footerBoxOne p {
+    line-height: 2rem;
+}
+
+.footerBox h4,
+.footerBox p {
+    color: white;
+}
+
+.footerBox p {
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    text-align: left;
+}
+
+.footerBox ul {
+    padding: 0px;
+}
+
+.footerBox ul li {
+    list-style: none;
+    margin: 0px;
+    padding: 0.5rem;
+}
+
+.footerBox ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.footerBoxThree p {
+    line-height: 2rem;
+}
+
+.socialLogo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* responsive starts */
+@media screen and (max-width:992px) {
+    .footer {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* responsive ends */

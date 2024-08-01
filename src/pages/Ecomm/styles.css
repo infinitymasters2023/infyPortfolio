@@ -1,0 +1,24 @@
+.ecommbg {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 2rem;
+    background-image: url("../../assets/images/bg10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.techWrp h1{
+    text-align: center;
+    color: var(--navy);
+    margin-bottom: 2rem;
+}
+
+.techWrp p{
+    letter-spacing: 0.8px;
+}
+
+.techWrp li{
+    background-color: transparent !important;
+    color: gray;
+    letter-spacing: 0.8px;
+}

@@ -1,0 +1,78 @@
+.consumerCardWrp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.consumerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 2rem;
+    transition: all 0.2s linear;
+}
+
+.consumerCard:hover {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.consImgWrp {
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+}
+
+.consImgWrp img {
+    width: 100%;
+}
+
+.consumerCard p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.consumerbg {
+    margin-top: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 2rem;
+    background-image: url("../../assets/images/bg9.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.techWrp h1 {
+    text-align: center;
+    color: var(--navy);
+    margin-bottom: 2rem;
+}
+
+.techWrp p {
+    letter-spacing: 0.8px;
+}
+
+.techWrp li {
+    background-color: transparent !important;
+    color: gray;
+    letter-spacing: 0.8px;
+}
+
+.s2 {
+    max-width: 800px;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.s2 img {
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .consumerCardWrp{
+        grid-template-columns: 1fr;
+    }
+}
